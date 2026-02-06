@@ -1,0 +1,13 @@
+&system
+  cluster_time = 172800.0
+/
+
+&model
+  J = 1.0
+/
+
+&run
+  n_steps = 1000
+  n_jump  = 1
+  dt      = 0.01
+/
