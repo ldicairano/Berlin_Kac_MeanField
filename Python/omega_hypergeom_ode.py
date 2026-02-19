@@ -211,9 +211,9 @@ def main():
     npts = 260
     eps_grid = np.linspace(eps_min, eps_max, npts)
 
-    # finite-difference steps (separati)
+    # finite-difference steps 
     h1 = 8.0e-4   # for s'
-    h2 = 1.2e-3   # for s''  (your previous safe choice)
+    h2 = 1.2e-3   # for s''  
 
     out_dir = "out"
     os.makedirs(out_dir, exist_ok=True)
