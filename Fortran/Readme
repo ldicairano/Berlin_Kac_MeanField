@@ -1,1 +1,8 @@
+## Fortran
+
+This folder contains the Fortran source code used to run the **microcanonical (constant-energy) simulations** of the Berlin–Kac mean-field spherical model.
+
+The implementation evolves the constrained Hamiltonian dynamics on the \(N\)-sphere using a **RATTLE** integrator, generates microcanonical trajectories at fixed energy density \(\varepsilon\), and outputs time-averaged observables (e.g. kinetic/potential energy, magnetization, and microcanonical derivative estimators based on kinetic-energy moments).
+
+Input parameters are provided via the `input.inp` template, and compilation is handled through the `Makefile`.
 
