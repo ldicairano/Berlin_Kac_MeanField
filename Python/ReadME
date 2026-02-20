@@ -1,0 +1,5 @@
+## Python
+
+This folder contains Python scripts used for **semi-analytic / post-processing calculations** and figure generation.
+
+In particular, it includes tools to evaluate the finite-\(N\) density of states \(\Omega_N(\varepsilon)\) (via high-precision special-function routines) and to compute the corresponding microcanonical derivatives \(s_N'(\varepsilon)\), \(s_N''(\varepsilon)\), etc. on an energy grid, enabling direct comparison between numerical microcanonical simulations and exact finite-\(N\) reference curves.
